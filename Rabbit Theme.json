@@ -1,0 +1,54 @@
+{
+    "name": "Rabbit_2021",
+    "dataColors": [
+        "#1494FF",
+        "#EF4C4C",
+        "#FFAA00",
+        "#29CC6D",
+        "#7C5CFF",
+        "#D0DF00",
+        "#E3E7E9",
+        "#004D80"
+    ],
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontSize": 15,
+                        "fontFamily": "Poppins",
+                        "fontColor": { "solid" : { "color" : "#1F2123"} }
+                    }
+                ],
+            "legend": [
+                    {
+                        "fontFamily": "Poppins"
+                    }
+                ]
+            }
+
+        }
+        
+    },
+    "textbox": {
+        "*": {
+            "*": [
+                {
+                    "fontSize": 40,
+                    "fontFamily": "Poppins-Black",
+                    "color": { "solid": { "color": "#1494FF"} }
+            }],
+            "general": [{
+                "responsive": false
+            }],
+            "background": [{
+                "show": false,
+                "color": { "solid": { "color": "#1494FF"}},
+                "transparency": 100
+            }],
+            "visualHeader": [{
+                "show": false
+            }]
+        }
+    }
+}
